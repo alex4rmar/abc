@@ -26,10 +26,11 @@ cd ..
 sudo rm -R yay
 clear
 
+echo "
 ######################################
-                 POLYBAR
+                POLYBAR
 ######################################
-
+"
 git clone https://aur.archlinux.org/polybar-git.git
 cd polybar-git
 makepkg -si
@@ -38,27 +39,27 @@ sudo rm -R polybar-git
 clear
 
 
+echo "
 ######################################
                 MKDIR
 ######################################
-
+"
 sudo mkdir ~/.config/bspwm
 sudo mkdir ~/.config/sxhkd
 sudo mkdir ~/.config/polybar
 clear
 
 
+echo "
 ######################################
                 COPIAR
 ######################################
-
+"
 # sudo cp /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/
 # sudo cp /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/
 # sudo cp /usr/share/doc/polybar/config ~/.config/polybar/
 # clear
-
 # sudo echo -e " exec bspwm " >  ~/.xinitrc
-
 # sudo nano ~/.config/bspwm/bspwmrc
 
 
@@ -67,4 +68,3 @@ sudo cp sxhkdrc ~/.config/sxhkd/
 sudo cp config ~/.config/polybar/
 sudo cp launch.sh ~/.config/polybar/
 sudo cp .xinitrc ~/
-
