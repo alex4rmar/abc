@@ -67,4 +67,3 @@ sudo cp bspwmrc ~/.config/bspwm/
 sudo cp sxhkdrc ~/.config/sxhkd/
 sudo cp config ~/.config/polybar/
 sudo cp launch.sh ~/.config/polybar/
-sudo cp .xinitrc ~/
