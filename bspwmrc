@@ -1,9 +1,19 @@
 #! /bin/sh
 
+
+#### AUTOSTART ####
+sxhkd &
+picom &
+nitrogen --restore &
 $HOME/.config/polybar/launch.sh
 pgrep -x sxhkd > /dev/null || sxhkd &
 
+
+#### MONITORS ####
+
 bspc monitor -d I II III IV V VI VII VIII IX X
+
+#### BSPWM configuration ####
 
 bspc config border_width         2
 bspc config window_gap          12
