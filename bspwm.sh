@@ -59,7 +59,7 @@ echo "
  sudo cp /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/
  sudo cp /usr/share/doc/polybar/config ~/.config/polybar/
  clear
-# sudo echo -e " exec bspwm " >  ~/.xinitrc
+ sudo echo -e " exec bspwm " >  ~/.xinitrc
 # sudo nano ~/.config/bspwm/bspwmrc
 
 
