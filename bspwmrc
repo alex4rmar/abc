@@ -1,11 +1,13 @@
+
 #! /bin/sh
 
 
 #### AUTOSTART ####
+
 sxhkd &
-picom &
-nitrogen --restore &
+nitrogen --restore&
 $HOME/.config/polybar/launch.sh
+
 pgrep -x sxhkd > /dev/null || sxhkd &
 
 
