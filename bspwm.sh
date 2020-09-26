@@ -54,25 +54,15 @@ echo "
                 COPIAR
 ######################################
 "
-# sudo cp /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/
-# sudo cp /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/
-# sudo cp /usr/share/doc/polybar/config ~/.config/polybar/
-# clear
+ sudo cp /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/
+ sudo cp /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/
+ sudo cp /usr/share/doc/polybar/config ~/.config/polybar/
+ clear
  sudo echo -e " exec bspwm " >  ~/.xinitrc
 
 
 sudo chmod +x launch.sh
-sudo chmod +x config
-sudo chmod +x bspwmrc
-sudo chmod +x sxhkdrc
-
 
 sudo chown root:root launch.sh
-sudo chown root:root config
-sudo chown root:root bspwmrc
-sudo chown root:root sxhkdrc
 
-sudo cp bspwmrc ~/.config/bspwm/
-sudo cp sxhkdrc ~/.config/sxhkd/
-sudo cp config ~/.config/polybar/
 sudo cp launch.sh ~/.config/polybar/
