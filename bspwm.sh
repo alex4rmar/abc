@@ -53,10 +53,10 @@ sudo cp /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/
 sudo cp /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/
 sudo cp /usr/share/doc/polybar/config ~/.config/polybar/
 clear
-sudo echo -e " exec bspwm " >  ~/.xinitrc
+sudo echo " exec bspwm " >  ~/.xinitrc
 #
-sudo chmod +x launch.sh
+sudo echo "  " > ~/.config/polybar/launch.sh
 #
-sudo chown root:root launch.sh
+sudo chmod +x ~/.config/polybar/launch.sh
 #
-sudo cp launch.sh ~/.config/polybar/
+sudo chown root:root ~/.config/polybar/launch.sh
