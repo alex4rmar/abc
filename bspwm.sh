@@ -50,7 +50,7 @@ echo "
 ######################################"
 #
 sudo cp /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/
-sudo cp /usr/share/doc/sxhkd/examples/sxhkdrc ~/.config/sxhkd/
+sudo cp /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/
 sudo cp /usr/share/doc/polybar/config ~/.config/polybar/
 clear
 sudo echo " exec bspwm " >  ~/.xinitrc
